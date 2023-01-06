@@ -98,3 +98,30 @@ ul{
     color: #444343;
     line-height:26px; 
 }
+
+/* My plan style details here */
+.my-plan{
+margin-top:100px;
+display: flex;
+width:80%;
+background-color: antiquewhite;
+padding: 20px;
+}
+.plan{
+text-align: center;
+margin-top:80px;
+font-size: 45px;
+font-family: serif;
+}
+.dev-img-title{
+    margin-top:20px;
+    font-size: 24px;
+
+}
+.dev-img-des{
+margin-top: 16px;
+color: #737272;
+}
+.my-plan:hover{
+    background-color: #444343;
+}
