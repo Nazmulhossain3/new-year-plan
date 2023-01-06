@@ -1,3 +1,15 @@
-h1{
-    color: red;
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 auto;
+}
+.banner-info{
+
+}
+.banner-title{
+ position: absolute;
+width: 525px;
+height: 228px;
+left: 845px;
+top: 216px;
 }
