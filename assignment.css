@@ -3,6 +3,8 @@
     box-sizing: border-box;
     padding: 0 auto;
 }
+
+/* here banner style start */
 .header-banner{
     background-image:url('./images/banner/banner2.png');
     
@@ -55,4 +57,44 @@ line-height: 26px;
 color: #444343;
 
 text-align: right;
+}
+.btn-primary{
+    margin-left:400px;
+    margin-top: 32px;
+    width: 100px;
+    height: 44px;
+    border-radius: 7px;
+    background-color: blueviolet;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.btn-primary:hover{
+    background-color: tomato;
+}
+
+/* Here main style details */
+.container{
+display: flex;
+}
+.img-feature{
+margin-top: 250px;
+margin-left: 30px;
+
+}
+.img-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #444343;
+}    
+.img-description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 16px;
+    color: #444343;
+}
+ul{
+    color: #444343;
+    line-height:26px; 
 }
