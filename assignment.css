@@ -6,6 +6,7 @@
 
 /* here banner style start */
 .header-banner{
+    
     background-image:url('./images/banner/banner2.png');
     
     width: 1600px;
@@ -18,6 +19,7 @@
 
 }
 .banner-info{
+   
     position: absolute;
     margin-top: 200px;
     margin-left: 600px;
@@ -44,21 +46,21 @@
 .banner-description{
    
     
-width: 494px;
-height: 78px;
-left: 876px;
-top: 468px;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
 
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #444343;
-
-text-align: right;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    text-align: right;
 }
 .btn-primary{
+    
     margin-left:400px;
     margin-top: 32px;
     width: 100px;
@@ -69,19 +71,24 @@ text-align: right;
     color: aliceblue;
 }
 .btn-primary:hover{
+   
     background-color: tomato;
 }
 
 /* Here main style details */
+
 .container{
-display: flex;
+   
+    display: flex;
 }
 .img-feature{
-margin-top: 250px;
-margin-left: 30px;
+   
+    margin-top: 250px;
+    margin-left: 30px;
 
 }
 .img-title{
+    
     color: #151414;
     font-weight: 700;
     font-size: 40px;
@@ -89,66 +96,171 @@ margin-left: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #444343;
 }    
+
 .img-description{
+   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 16px;
     color: #444343;
 }
+
 ul{
+    
     color: #444343;
     line-height:26px; 
 }
 
 /* My plan style details here */
+
 .my-plan{
-margin-top:100px;
-display: flex;
-width:80%;
-background-color: antiquewhite;
-padding: 20px;
+   
+    margin-top:100px;
+    display: flex;
+    width:80%;
+    background-color: antiquewhite;
+    padding: 20px;
 }
+
 .plan{
-text-align: center;
-margin-top:80px;
-font-size: 45px;
-font-family: serif;
+    
+    text-align: center;
+    margin-top:80px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .dev-img-title{
+    
     margin-top:20px;
     font-size: 24px;
 
 }
 .dev-img-des{
-margin-top: 16px;
-color: #737272;
+    margin-top: 16px;
+    color: #737272;
 }
 .my-plan:hover{
     background-color: #444343;
 }
 
 .main-last-part{
-    background-image: url('./images/watch.png');
+    
+    background-image: url('./images/gradient3.png');
     background-position:cover;
     margin-top: 180px;
-    margin-left:100px;
+    margin-left:120px;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    width:80%;
+    padding: 20px;
+    border-radius:20px;
+    
+    
     
 }
+
 .last-main{
-font-size: 40px;
+    font-size: 40px;
 }
+
 .btn2{
-margin-top:24px;
-border: 2px solid tomato;
-padding: 10px;
-background-color:white;
-width:120px;
-border-radius:10%;
-font-size:18px;
-background-color:white;
+   
+    margin-top:24px;
+    border: 2px solid tomato;
+    padding: 10px;
+    background-color:white;
+    width:120px;
+    border-radius:10%;
+    font-size:18px;
+    background-color:white;
 }
+
 .btn2:hover{
     background-color: gray;
+}
+
+/* footer style details here  */
+
+.footer-container{
+    margin-top: 130px;
+    display: flex;
+    border-radius: 3%;
+    width:80%;
+    height: 300pxpx;
+    background-color: #151414;
+    color: white;
+    padding:60px;
+}
+
+.footer-title{
+   font-size:45px;
+   font-weight: bold;
+   color: #F8F8F8;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-bottom: 17px;
+}
+
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 26px;
+    margin-bottom: 23px;
+}
+.footer-mail{
+
+    color: #FFFFFF;
+    margin-bottom:16px;
+
+}
+.footer-ph{
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom:16px;
+}
+
+.footer-img{
+    gap:2px;
+}
+
+/* Subscription style details here */
+
+.subscribe-part{
+    width: 30%;
+    margin-bottom:40px;
+
+}
+.sub-title{
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+
+.sub-email{
+    height:40px;
+    width:250px;
+    font-size: 18px;
+   border:1px solid white;
+   background-color: #151414;
+   border-radius: 10px;
+   text-align: center;
+   margin-right: 80px;
+}
+
+.sub-email:hover{
+    background-color:tomato;
+}
+
+.sub-btn{
+    margin-top:24px;
+    border: 2px solid white;
+    padding: 10px;
+    width:120px;
+    border-radius:10px;
+    font-size:18px;
+    text-align: center;
+    
+}
+.sub-btn:hover{
+    background-color: #F15B22;
 }
